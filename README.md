@@ -16,5 +16,5 @@
 
 ### 퍼셉트론 수학적 모델
 ```
-(\displaystyle\sum_{i=1}^{n} wx) + b
+$$(\displaystyle\sum_{i=1}^{n} wx) + b$$
 ```
