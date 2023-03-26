@@ -5,7 +5,7 @@
 - 딥러닝은 이러한 인공신경망의 구조를 여러 층으로 구성해 보다 복잡한 문제를 해결할 수 있도록 하였다.
 - 딥러닝은 다양한 분야에서 활용되며 이미지 인식, 음성 인식, 자연어 처리 등 다양한 분야에서 높은 성능을 보이고 있다.
 ## 딥러닝 수학적 모델
-$$W=\begin{pmatrix}w_0 & w_1 & w_2 & \cdots & w_n \end{pmatrix}^T$$
+$$W=\begin{pmatrix}w_0 & w_1 & w_2 & \cdots & w_{m - 1} \end{pmatrix}^T$$
 # Perceptron
 - 퍼셉트론은 인공신경망의 한 종류로, 이진 분류(Binary Classification) 문제를 해결하는 데에 사용된 간단한 모델이다.
 - 딥러닝의 기반이 되는 모델로 입력값(Input)과 가중치(Weight)를 곱한 합을 임계치(Threshold)와 비교하여 출력값(Output)을 결정한다.
