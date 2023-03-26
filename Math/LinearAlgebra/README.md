@@ -50,5 +50,10 @@ r & s \\
 FG&=\begin{pmatrix} ap+br & aq+bs \\
 cp+dr & cq+ds \\
 \end{pmatrix} \\
+((ap+br)x+(aq+bs)y, (cp+dr)x+(cq+ds)y)&=\begin{pmatrix} ap+br & aq+bs \\
+cp+dr & cq+ds \\
+\end{pmatrix} \begin{pmatrix} x \\
+y \\
+\end{pmatrix}
 \end{aligned}
 $$
