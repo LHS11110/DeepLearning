@@ -7,8 +7,9 @@
 ## 딥러닝 수학적 모델
 $$W=\begin{pmatrix}w_0 & w_1 & w_2 & \cdots & w_{M - 1} \end{pmatrix}^T$$
 $$b=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{M - 1} \end{pmatrix}^T$$
-$$y_0=a(w_{0}^{T}x + b_0)$$
-$$y_1=a(w_{1}^{T}x + b_1)$$
+$$y_{0}=a(w_{0}^{T}x + b_{0})$$
+$$y_{1}=a(w_{1}^{T}x + b_{1})$$
+$$y_{M - 1}=a(w_{M - 1}^{T}x + b_{M - 1})$$
 # Perceptron
 - 퍼셉트론은 인공신경망의 한 종류로, 이진 분류(Binary Classification) 문제를 해결하는 데에 사용된 간단한 모델이다.
 - 딥러닝의 기반이 되는 모델로 입력값(Input)과 가중치(Weight)를 곱한 합을 임계치(Threshold)와 비교하여 출력값(Output)을 결정한다.
