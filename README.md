@@ -8,11 +8,14 @@
 $$
 \begin{aligned}
 X_{1, M}&=\begin{pmatrix}x_0 & x_1 & x_2 & \cdots & x_{M - 1} \end{pmatrix} \\
+b_{1, M}&=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{M - 1} \end{pmatrix} \\
 W_{M, N}&=\begin{pmatrix}w_{0, 0} & w_{0, 1} & \cdots & w_{0, N - 1} \\
 w_{1, 0} & w_{1, 1} & \cdots & w_{1, N - 1} \\
 \vdots & \vdots & \ddots & \vdots \\
 w_{M - 1, 0} & w_{M - 1, 1} & \cdots & w_{M - 1, N - 1} \\
 \end{pmatrix} \\
+\\
+Y_{1, M} &= wx + b
 \end{aligned}
 $$
 # Perceptron
