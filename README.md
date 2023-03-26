@@ -16,7 +16,6 @@
 - 다층 퍼셉트론은 여러 층의 노드로 이루어진 인공신경망으로, 다양한 비선형 문제를 해결할 수 있다.
 ## 퍼셉트론 수학적 모델
 - f는 활성화 함수, x는 입력, w는 가중치, b는 편향(Bias)이다.
-![Perceptron](./imgs/Perceptron.png)
 $$f\big((\displaystyle\sum_{i=1}^{n} w_i x_i) + b\big)$$
 # 기본적인 딥러닝 구성 요소와 의미
 ### 입력층
