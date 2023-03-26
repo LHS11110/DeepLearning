@@ -7,16 +7,20 @@
 ## 딥러닝 수학적 모델
 $$
 \begin{aligned}
-x는 입력값 행렬, b는 편향 행렬, w는 가중치 행렬, Y는 출력값 행렬, a는 활성화 함수이다. \\
-x_{1, M}=\begin{pmatrix}x_0 & x_1 & x_2 & \cdots & x_{M - 1} \end{pmatrix}& \\
-b_{1, N}=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{N - 1} \end{pmatrix}& \\
+x: 입력값 행렬 \\
+b: 편향 행렬 \\
+w: 가중치 행렬 \\
+y: 출력값 행렬 \\
+a: 활성화 함수 \\
+x_{1, M}=\begin{pmatrix}x_0 & x_1 & x_2 & \cdots & x_{M - 1} \end{pmatrix} \\
+b_{1, N}=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{N - 1} \end{pmatrix} \\
 w_{M, N}=\begin{pmatrix}w_{0, 0} & w_{0, 1} & \cdots & w_{0, N - 1} \\
 w_{1, 0} & w_{1, 1} & \cdots & w_{1, N - 1} \\
 \vdots & \vdots & \ddots & \vdots \\
 w_{M - 1, 0} & w_{M - 1, 1} & \cdots & w_{M - 1, N - 1} \\
 \end{pmatrix} \\
 \\
-y_{1, N}=a(wx + b) &
+y_{1, N}=a(wx + b)
 \end{aligned}
 $$
 # Perceptron
