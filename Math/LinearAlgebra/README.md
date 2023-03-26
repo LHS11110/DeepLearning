@@ -40,5 +40,15 @@ f(x, y)&=(ax + by, cx + dy) \\
 g(x, y)&=(px + qy, rx + sy) \\
 f \circ g&=(apx+aqy+brx+bsy, cpx+cqy+drx+dsy) \\
 &=((ap+br)x+(aq+bs)y, (cp+dr)x+(cq+ds)y) \\
+\\
+F&=\begin{pmatrix} a & b \\
+c & d \\
+\end{pmatrix} \\
+G&=\begin{pmatrix} p & q \\
+r & s \\
+\end{pmatrix} \\
+FG&=\begin{pmatrix} ap+br & aq+bs \\
+cp+dr & cq+ds \\
+\end{pmatrix} \\
 \end{aligned}
 $$
