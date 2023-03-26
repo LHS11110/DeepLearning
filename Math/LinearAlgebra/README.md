@@ -11,6 +11,6 @@ a_{2, 1} & a_{2, 2} & \cdots & a_{2, N} \\
 \vdots & \vdots & \ddots & \vdots \\
 a_{M, 1} & a_{M, 2} & \cdots & a_{M, N} \\
 \end{pmatrix} \\
-a_{i, j}: 2행 1열 성분이라고 읽는다.
+a_{i, j}&: 2행 1열 성분이라고 읽는다.
 \end{aligned}
 $$
