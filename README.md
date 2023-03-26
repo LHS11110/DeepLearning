@@ -15,7 +15,7 @@ w_{1, 0} & w_{1, 1} & \cdots & w_{1, N - 1} \\
 w_{M - 1, 0} & w_{M - 1, 1} & \cdots & w_{M - 1, N - 1} \\
 \end{pmatrix} \\
 \\
-Y_{1, M} &= wx + b
+Y_{1, N} &= wx + b
 \end{aligned}
 $$
 # Perceptron
