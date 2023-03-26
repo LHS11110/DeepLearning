@@ -28,3 +28,7 @@ $$
 - $A \pm B = (a_{i, j} \pm b_{i, j})$
 ### 상수배
 - 상수 c에 대해 $cA = (ca_{i, j})$
+### 곱셈
+- mn 행렬 $A=(a_{i, j})$와 nr 행렬 $B=(b_{j, k})$에 대해
+- $AB=(c_{i, k})$: mr 행렬
+- 단, $c_{i, k}=\displaystyle\sum_{j=0}^{n} a_{i, j}b_{j, k}$
