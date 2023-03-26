@@ -10,7 +10,7 @@ $$
 x&: 입력 행렬 \\
 b&: 편향 행렬 \\
 w&: 가중치 행렬 \\
-y&: 출력값 행렬 \\
+y&: 출력 행렬 \\
 a&: 활성화 함수 \\
 x_{1, M}&=\begin{pmatrix}x_0 & x_1 & x_2 & \cdots & x_{M - 1} \end{pmatrix} \\
 b_{1, N}&=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{N - 1} \end{pmatrix} \\
