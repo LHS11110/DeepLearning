@@ -9,11 +9,12 @@ $$
 \begin{aligned}
 W&=\begin{pmatrix}w_0 & w_1 & w_2 & \cdots & w_{M - 1} \end{pmatrix}^T \\
 b&=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{M - 1} \end{pmatrix}^T \\
+X&=\begin{pmatrix}x_0 & x_1 & x_2 & \cdots & x_{M - 1} \end{pmatrix}^T \\
 \\
-y_{0} &= a(w_{0}^{T}x + b_{0}) \\
-y_{1} &= a(w_{1}^{T}x + b_{1}) \\
+y_{0} &= a(w_{0}^{T}x_{0} + b_{0}) \\
+y_{1} &= a(w_{1}^{T}x_{1} + b_{1}) \\
 \vdots \\
-y_{M - 1} &= a(w_{M - 1}^{T}x + b_{M - 1}) \\
+y_{M - 1} &= a(w_{M - 1}^{T}x_{M - 1} + b_{M - 1}) \\
 \end{aligned}
 $$
 # Perceptron
