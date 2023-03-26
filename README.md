@@ -12,7 +12,7 @@ x&: 입력 행렬 \\
 b&: 편향 행렬 \\
 w&: 가중치 행렬 \\
 y&: 출력 행렬 \\
-a&: 활성화 함수 \\
+a&: 활성 함수 \\
 x_{1, M}&=\begin{pmatrix}x_0 & x_1 & x_2 & \cdots & x_{M - 1} \end{pmatrix} \\
 b_{1, N}&=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{N - 1} \end{pmatrix} \\
 w_{M, N}&=\begin{pmatrix}w_{0, 0} & w_{0, 1} & \cdots & w_{0, N - 1} \\
@@ -33,7 +33,7 @@ $$
 - 단층 퍼셉트론은 하나의 선형 분리(Linear Separability) 가능한 문제를 해결할 수 있다.
 - 다층 퍼셉트론은 여러 층의 노드로 이루어진 인공신경망으로, 다양한 비선형 문제를 해결할 수 있다.
 ## 퍼셉트론 수학적 모델
-- a는 활성화 함수, x는 입력, w는 가중치, b는 편향(Bias)이다.
+- a는 활성 함수, x는 입력, w는 가중치, b는 편향(Bias)이다.
 $$a\big((\displaystyle\sum_{i=0}^{n} w_i x_i) + b\big)$$
 # 기본적인 딥러닝 구성 요소와 의미
 ## 입력층
