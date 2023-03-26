@@ -6,10 +6,11 @@
 # 표기
 $$
 \begin{aligned}
-A_{M, N}&=\begin{pmatrix}w_{1, 1} & w_{1, 2} & \cdots & w_{1, N} \\
-w_{2, 1} & w_{2, 2} & \cdots & w_{2, N} \\
+A_{M, N}&=\begin{pmatrix}a_{1, 1} & a_{1, 2} & \cdots & a_{1, N} \\
+a_{2, 1} & a_{2, 2} & \cdots & a_{2, N} \\
 \vdots & \vdots & \ddots & \vdots \\
-w_{M, 1} & w_{M, 2} & \cdots & w_{M, N} \\
-\end{pmatrix}
+a_{M, 1} & a_{M, 2} & \cdots & a_{M, N} \\
+\end{pmatrix} \\
+a_{i, j}: 2행 1열 성분이라고 읽는다.
 \end{aligned}
 $$
