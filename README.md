@@ -14,7 +14,6 @@ y_{0} &= a(w_{0}^{T}x + b_{0}) \\
 y_{1} &= a(w_{1}^{T}x + b_{1}) \\
 \vdots \\
 y_{M - 1} &= a(w_{M - 1}^{T}x + b_{M - 1}) \\
-
 \end{aligned}
 $$
 # Perceptron
