@@ -33,3 +33,12 @@ $$
 - $AB=(c_{i, k})$: mr 행렬
 - 단, $c_{i, k}=\displaystyle\sum_{j=0}^{n} a_{i, j}b_{j, k}$
 - 행렬곱셈은 교환법칙이 성립되지 않는다.
+#### 합성함수와 행렬곱셈의 관계
+$$
+\begin{aligned}
+f(x, y)&=(ax + by, cx + dy) \\
+g(x, y)&=(px + qy, rx + sy) \\
+f \circ g&=(apx+aqy+brx+bsy, cpx+cqy+drx+dsy) \\
+&=((ap+br)x+(aq+bs)y, (cp+dr)x+(cq+ds)y) \\
+\end{aligned}
+$$
