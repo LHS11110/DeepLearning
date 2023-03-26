@@ -6,7 +6,7 @@
 - 딥러닝은 다양한 분야에서 활용되며 이미지 인식, 음성 인식, 자연어 처리 등 다양한 분야에서 높은 성능을 보이고 있다.
 ## 딥러닝 수학적 모델
 $$
-W=\begin{pmatrix}w_0 & w_1 & w_2 & \cdots & w_{M - 1} \end{pmatrix}^T
+W=\begin{pmatrix}w_0 & w_1 & w_2 & \cdots & w_{M - 1} \end{pmatrix}^T\n
 b=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{M - 1} \end{pmatrix}^T
 $$
 # Perceptron
