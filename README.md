@@ -7,14 +7,12 @@
 ## 딥러닝 수학적 모델
 $$
 \begin{aligned}
-W&=\begin{pmatrix}w_0 & w_1 & w_2 & \cdots & w_{M - 1} \end{pmatrix}^T \\
-b&=\begin{pmatrix}b_0 & b_1 & b_2 & \cdots & b_{M - 1} \end{pmatrix}^T \\
-X&=\begin{pmatrix}x_0 & x_1 & x_2 & \cdots & x_{M - 1} \end{pmatrix} \\
-\\
-y_{0} &= a(w_{0}^{T}x_{0} + b_{0}) \\
-y_{1} &= a(w_{1}^{T}x_{1} + b_{1}) \\
-\vdots \\
-y_{M - 1} &= a(w_{M - 1}^{T}x_{M - 1} + b_{M - 1}) \\
+X_{1, M}&=\begin{pmatrix}x_0 & x_1 & x_2 & \cdots & x_{M - 1} \end{pmatrix} \\
+W_{M, N}&=\begin{pmatrix}w_{0, 0} & w_{0, 1} & \cdots & w_{0, N - 1} \\
+w_{1, 0} & w_{1, 1} & \cdots & w_{1, N - 1} \\
+\vdots & \vdots & \ddots & \vdots \\
+w_{M - 1, 0} & w_{M - 1, 1} & \cdots & w_{M - 1, N - 1} \\
+\end{pmatrix} \\
 \end{aligned}
 $$
 # Perceptron
@@ -29,7 +27,7 @@ $$
 - f는 활성화 함수, x는 입력, w는 가중치, b는 편향(Bias)이다.
 $$f\big((\displaystyle\sum_{i=0}^{n} w_i x_i) + b\big)$$
 # 기본적인 딥러닝 구성 요소와 의미
-### 입력층
+## 입력층
 - 모델의 입력값을 받는 층이다. 입력에는 정수값 또는 실수값을 사용하며 여러 입력이 주어질 수 있다.
 ## 은닉층
 - 입력층과 출력층 사이에 존재한다. 여러 개의 층을 사용할수록 더 복잡한 문제를 학습할 수 있다.
