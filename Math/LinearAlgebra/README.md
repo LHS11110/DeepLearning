@@ -92,11 +92,13 @@ a_{2, 1} & a_{2, 2} \end{pmatrix} = a_{1, 1}a_{2, 2} - a_{1, 2}a_{2, 1}
 \end{aligned}
 $$
 
-- 라플라스 전개로(Laplace expansion) 정의한 행렬식
+- 소행렬: 행렬 $A_{M, N}$의 i행과 j열을 제거하여 만든 행렬 $B_{M - 1, N - 1}$, 표현식은 다음과 같다. $M_{i, j}$
+- 소행렬식(minor determinant): $|M_{i, j}|$ 또는 $det(M_{i, j})$, 표현식은 다음과 같다. $D_{i, j}$
+- 여인수(cofactor): $C_{i, j} = (-1)^{i + j}D_{i, j}$
+- 라플라스 전개(Laplace expansion, 여인수 전개라고도 한다.)로 정의한 행렬식
 
 $$
 \begin{aligned}
-C_{i, j}=(-1)^{i + j} \times M_{i, j} \\
 det(A)=\displaystyle\sum_{j=1}^{n} a_{i, j}C_{i, j}
 \end{aligned}
 $$
