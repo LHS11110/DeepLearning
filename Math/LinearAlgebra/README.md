@@ -88,6 +88,6 @@ $$
 $$
 \begin{aligned}
 &det\begin{pmatrix} a_{1, 1} & a_{1, 2} \\
-a_{2, 1} & a_{2, 2} \end{pmatrix}
+$a_{2, 1} & a_{2, 2} \end{pmatrix}
 \end{aligned}
 $$
