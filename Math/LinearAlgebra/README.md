@@ -96,7 +96,7 @@ $$
 
 $$
 \begin{aligned}
-C_{i, j}=(-1)^{i + j} \times M_{i, j}
+C_{i, j}=(-1)^{i + j} \times M_{i, j} \\
 det(A)=\displaystyle\sum_{j=1}^{n} a_{i, j}C_{i, j}
 \end{aligned}
 $$
