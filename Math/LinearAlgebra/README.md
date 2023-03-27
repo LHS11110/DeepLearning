@@ -83,11 +83,12 @@ $$
 - 이때, $A$가
 1. $0 \times 0$ $\rightarrow$ $det() = 0$
 2. $1 \times 1$ $\rightarrow$ $det(a) = a$
-3. $2 \times 2$ $\rightarrow$
+3. $2 \times 2$
 
 $$
 \begin{aligned}
-&det\begin{pmatrix} a_{1, 1} & a_{1, 2} \\
-$a_{2, 1} & a_{2, 2} \end{pmatrix}
+det\begin{pmatrix} a_{1, 1} & a_{1, 2} \\
+a_{2, 1} & a_{2, 2} \end{pmatrix} \\
+$= a_{1, 1}a_{2, 2} - a_{1, 2}a_{2, 1}
 \end{aligned}
 $$
