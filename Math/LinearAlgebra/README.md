@@ -91,3 +91,12 @@ det\begin{pmatrix} a_{1, 1} & a_{1, 2} \\
 a_{2, 1} & a_{2, 2} \end{pmatrix} = a_{1, 1}a_{2, 2} - a_{1, 2}a_{2, 1}
 \end{aligned}
 $$
+
+- 라플라스 전개로(Laplace expansion) 정의한 행렬식
+
+$$
+\begin{aligned}
+C_{i, j}=(-1)^{i + j} \times M_{i, j}
+det(A)=\displaystyle\sum_{j=1}^{n} a_{i, j}C_{i, j}
+\end{aligned}
+$$
