@@ -81,6 +81,12 @@ $$
 # 행렬식
 - 정사각행렬 $A$를 하나의 수로써 대응시키는 특별한 함수. $detA=|A|$
 - 이때, $A$가
-1. $0 \times 0$ -> $det() = 0$
-2. $1 \times 1$ -> $det(a) = a$
-3. $2 \times 2$ -> $det\begin{pmatrix} a_{1, 1} & a_{1, 2} \\ a_{2, 1} & a_{2, 2} \end{pmatrix}$
+1. $0 \times 0$ $\rightarrow$ $det() = 0$
+2. $1 \times 1$ $\rightarrow$ $det(a) = a$
+3. $2 \times 2$ $\rightarrow$
+$$
+/begin{aligned}
+det\begin{pmatrix} a_{1, 1} & a_{1, 2} \\
+a_{2, 1} & a_{2, 2} \end{pmatrix}
+/end{aligned}
+$$
