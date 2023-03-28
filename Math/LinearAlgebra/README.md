@@ -111,7 +111,7 @@ $$
 
 $$
 \begin{aligned}
-A^{-1}=\frac{1}{detA}\begin{pmatrix} C_{1, 1} & C_{2, 1} & \cdots \\
+A^{-1}&=\frac{1}{detA}\begin{pmatrix} C_{1, 1} & C_{2, 1} & \cdots \\
 C_{1, 2} & C_{2, 2} & \cdots \\
 \vdots & \vdots & \ddots
 \end{pmatrix} \\
