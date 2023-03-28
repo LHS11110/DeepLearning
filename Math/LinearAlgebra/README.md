@@ -104,13 +104,18 @@ det(A)=\displaystyle\sum_{j=1}^{n} a_{i, j}C_{i, j}
 $$
 
 # 역행렬
+- 역행렬은 행렬 $A$와 곱하여 단위행렬 $I$가 나오게 하는 행렬을 말한다.
 - 행렬식이 0이면 역행렬이 존재하지 않는다. 즉, 행렬식이 0이 아닌 정사각행렬 $A$의 역행렬 $A^{-1}$은
+- 여인수행렬: 행렬 $A=(a_{i, j})$에 대해 $A=C_{i, j}$인 행렬
+- 수반행렬(adjoint matrix): $A=(a_{i, j})$에 대해 $A$의 여인수행렬의 전치행렬
 
 $$
 \begin{aligned}
-A^{-1}=\frac{1}{detA}\begin{pmatrix} C_{1, 1} & C_{1, 2} & \cdots \\
-C_{2, 1} & C_{2, 2} & \cdots \\
+A^{-1}=\frac{1}{detA}\begin{pmatrix} C_{1, 1} & C_{2, 1} & \cdots \\
+C_{1, 2} & C_{2, 2} & \cdots \\
 \vdots & \vdots & \ddots
-\end{pmatrix}
+\end{pmatrix} \\
+\\
+A^{-1}=\frac{adjA}{detA}
 \end{aligned}
 $$
