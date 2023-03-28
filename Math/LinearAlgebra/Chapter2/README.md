@@ -6,5 +6,5 @@
 - $R^3$에서 크기(스칼라)와 방향의 의미를 모두 포함하는 표현 도구. $a=(x, y, z)$
 ## n차원 벡터
 - $R^n$ 상의 벡터 $V=(v_1, v_2, \cdots, v_n)$
-###
 - 영벡터 $\vec 0 = 0 = (0, 0, \cdots, 0)$
+- 두 벡터 $v=(v_1, v_2, \cdots, v_n), w=(w_1, w_2, \cdots, w_n)$가 같다. $\Leftrightarrow v_1=w_1, \cdots, v_n=w_n$
