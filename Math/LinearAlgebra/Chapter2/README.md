@@ -21,3 +21,12 @@
 ### 선형(일차)결합
 - $R^n$의 벡터 $w$가 임의의 실수 $k1, k2, \cdots, k_r$에 대하여 $w=k_{1}v_{1}+k_{2}v_{2}+\cdots+k_{r}v_{r}$의 형태로 쓰여지면,
 $w$를 $v_1, v_2, \cdots, v_r$의 선형(일차)결합이라 한다.
+## 스칼라 곱(내적)
+- Dot Product라고도 하며, 두 벡터로부터 실수 스칼라를 얻는 연산
+
+$$
+\begin{aligned}
+v \cdot w &= |v||w|cos\theta
+&= v_1 w_1 + v_2 w_2 + \cdots + v_n w_n
+\end{aligned}
+$$
