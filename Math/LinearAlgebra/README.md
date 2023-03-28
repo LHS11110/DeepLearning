@@ -119,3 +119,14 @@ C_{1, 2} & C_{2, 2} & \cdots \\
 A^{-1}&=\frac{adjA}{detA}
 \end{aligned}
 $$
+
+# 크래머 공식
+- 연립일차방정식 $AX=B$에서, $A$가 행렬식이 0이 아닌 정사각행렬일 때,
+
+$$
+\begin{aligned}
+x_j=\frac{detA_j}{detA}
+\end{aligned}
+$$
+
+- 단, $j=1, \cdots, n$이고 $A_j$는 A의 $j$번째 열을 $B$의 $j$번째 열로 바꾼 행렬이다.
