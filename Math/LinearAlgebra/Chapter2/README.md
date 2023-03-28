@@ -26,7 +26,7 @@ $w$를 $v_1, v_2, \cdots, v_r$의 선형(일차)결합이라 한다.
 
 $$
 \begin{aligned}
-v \cdot w &= |v||w|cos\theta
+v \cdot w &= |v||w|cos\theta \\
 &= v_1 w_1 + v_2 w_2 + \cdots + v_n w_n
 \end{aligned}
 $$
