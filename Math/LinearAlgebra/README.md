@@ -108,8 +108,8 @@ $$
 
 $$
 \begin{aligned}
-A^{-1}=\begin{pmatrix} C_{1, 1} & C_{1, 2} & \cdots \\
-a_{2, 1} & a_{2, 2} & \cdots \\
+A^{-1}=\frac{1}{detA}\begin{pmatrix} C_{1, 1} & C_{1, 2} & \cdots \\
+C_{2, 1} & C_{2, 2} & \cdots \\
 \vdots & \vdots & \ddots
 \end{pmatrix}
 \end{aligned}
