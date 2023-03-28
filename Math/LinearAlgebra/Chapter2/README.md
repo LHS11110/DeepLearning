@@ -8,3 +8,5 @@
 - $R^n$ 상의 벡터 $V=(v_1, v_2, \cdots, v_n)$
 - 영벡터 $\vec 0 = 0 = (0, 0, \cdots, 0)$
 - 두 벡터 $v=(v_1, v_2, \cdots, v_n), w=(w_1, w_2, \cdots, w_n)$가 같다. $\Leftrightarrow v_1=w_1, \cdots, v_n=w_n$
+## 벡터 연산
+- 노름, 벡터의 크기 (또는 길이) 라고도 하며, $||v||=\sqrt (v_1^2 + v_2^2 + \cdots + v_n^2)$
