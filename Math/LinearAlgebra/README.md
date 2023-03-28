@@ -102,3 +102,15 @@ $$
 det(A)=\displaystyle\sum_{j=1}^{n} a_{i, j}C_{i, j}
 \end{aligned}
 $$
+
+# 역행렬
+- 행렬식이 0이면 역행렬이 존재하지 않는다. 즉, 행렬식이 0이 아닌 정사각행렬 $A$의 역행렬 $A^{-1}$은
+
+$$
+\begin{aligned}
+A^{-1}=\begin{pmatrix} C_{1, 1} & C_{1, 2} & \cdots \\
+a_{2, 1} & a_{2, 2} & \cdots \\
+\vdots & \vdots & \ddots
+\end{pmatrix}
+\end{aligned}
+$$
