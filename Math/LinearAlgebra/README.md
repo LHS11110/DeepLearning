@@ -129,4 +129,4 @@ x_j=\frac{detA_j}{detA}
 \end{aligned}
 $$
 
-- 단, $j=1, \cdots, n$이고 $A_j$는 A의 $j$번째 열을 $B$의 $j$번째 열로 바꾼 행렬이다.
+- 단, $j=1, \cdots, n$이고 $A_j$는 $A$의 $j$번째 열을 $B$의 $j$번째 열로 바꾼 행렬이다.
