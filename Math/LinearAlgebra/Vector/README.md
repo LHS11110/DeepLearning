@@ -50,3 +50,10 @@ w_1 & w_3\end{pmatrix}, det \begin{pmatrix} v_1 & v_2 \\
 w_1 & w_2 \end{pmatrix})
 \end{aligned}
 $$
+
+## 벡터 곱 연산 성질
+1. $u \times v = -(v \times u)$
+2. $u \times (v + w) = (u \times v) + (u \times w)$
+3. $k(u \times v) = (ku) \times v = u \times (kv)$
+4. $u \times 0 = 0$
+5. $u \times u = 0$
