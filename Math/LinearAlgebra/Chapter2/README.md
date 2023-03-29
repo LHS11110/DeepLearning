@@ -28,3 +28,13 @@ v \cdot w &= |v||w|cos\theta \\
 &= v_1 w_1 + v_2 w_2 + \cdots + v_n w_n
 \end{aligned}
 $$
+
+# 벡터 연산 성질
+1. $u + v = v + u$
+2. $(u + v) + w = u + (v + w)$
+3. $u + 0 = u$
+4. $u + (-u) = 0$
+5. $k(u + v) = ku + kv$
+6. $k(mu) = (km)u$
+7. $r(u + v) = ru + rv$
+8. $1u = u, 0u = 0$
