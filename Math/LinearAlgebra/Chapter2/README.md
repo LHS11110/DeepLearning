@@ -29,7 +29,7 @@ v \cdot w &= |v||w|cos\theta \\
 \end{aligned}
 $$
 
-# 벡터 연산 성질
+## 벡터 연산 성질
 1. $u + v = v + u$
 2. $(u + v) + w = u + (v + w)$
 3. $u + 0 = u$
@@ -38,3 +38,15 @@ $$
 6. $k(mu) = (km)u$
 7. $r(u + v) = ru + rv$
 8. $1u = u, 0u = 0$
+## 벡터 곱
+- 가위 곱(cross product) 또는 외적이라고도 한다.
+- 연산 결과로 벡터가 나오며 방향은 주어진 두 벡터의 수직이고, 크기는 두 벡터로 만들어진 평행사변형의 면적이다.
+
+$$
+\begin{aligned}
+v \times w = (det \begin{pmatrix} v_2 & v_3 \\
+w_2 & w_3\end{pmatrix}, -det \begin{pmatrix} v_1 & v_3 \\
+w_1 & w_3\end{pmatrix}, det \begin{pmatrix} v_1 & v_2 \\
+w_1 & w_2 \end{pmatrix})
+\end{aligned}
+$$
