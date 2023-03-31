@@ -60,3 +60,4 @@ $$a\big((\displaystyle\sum_{i=0}^{n} w_i x_i) + b\big)$$
 - [미적분학](./Math/Calculus/): 모델의 손실 함수를 최적화하는 과정에서 업데이트되어 학습되는 데에 사용된다.
 - [확률과 통계](./Math/ProbabilityAndStatistics/): 모델의 학습과 예측에 필요한 통계적 지식을 제공한다.
 - [정보이론](./Math/InformationTheory/): 손실 함수나 효율적인 데이터 압축 등을 수행하는 데에 사용된다.
+- [그래프이론](./Math/GraphTheory/): 미분을 계산하는 과정에서 사용될 지식을 제공한다.
