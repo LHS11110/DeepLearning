@@ -35,52 +35,7 @@ $$
 - 행렬곱셈은 교환법칙이 성립되지 않는다.
 ### 아다마르 곱
 - 두 벡터 또는 행렬을 곱하는 또 다른 방법으로 각 성분을 곱한다.
-- $A_mn \times B_mn = C_mn$
-#### 합성함수와 행렬곱셈의 관계
-$$
-\begin{aligned}
-f(x, y)&=(ax + by, cx + dy) \\
-g(x, y)&=(px + qy, rx + sy) \\
-f \circ g&=(apx+aqy+brx+bsy, cpx+cqy+drx+dsy) \\
-&=((ap+br)x+(aq+bs)y, (cp+dr)x+(cq+ds)y) \\
-\\
-F&=\begin{pmatrix} a & b \\
-c & d \\
-\end{pmatrix} \\
-G&=\begin{pmatrix} p & q \\
-r & s \\
-\end{pmatrix} \\
-FG&=\begin{pmatrix} ap+br & aq+bs \\
-cp+dr & cq+ds \\
-\end{pmatrix} \\
-\begin{pmatrix} (ap+br)x+(aq+bs)y \\
-(cp+dr)x+(cq+ds)y \\
-\end{pmatrix}&=\begin{pmatrix} ap+br & aq+bs \\
-cp+dr & cq+ds \\
-\end{pmatrix} \begin{pmatrix} x \\
-y \\
-\end{pmatrix}
-\end{aligned}
-$$
-#### 연립일차방정식과 행렬의 관계
-- 계수행렬: 연립일차방정식의 계수만 모아놓은 행렬 
-- 상수항: 연립일차방정식의 상수를 모아놓은 행렬
-- 첨가행렬: 계수와 상수를 모두 모아놓은 행렬
-- Leading Entry: 각 행에서 처음으로 0이 아닌 성분
-##### 행 사다리꼴 행렬
-- 행 사다리꼴 행렬의 3가지 조건
-1. 각 행의 Leading Entry는 1이다.
-2. 모든 성분이 0인 행은 마지막에 위치한다.
-3. 현재 행의 Leading Entry는 위 행의 Leading Entry보다 오른쪽 열에 위치하고, 아래 행의 Leading Entry보다 왼쪽 열에 위치해야 한다.
-- 기약 행 사다리꼴: 위 3가지 조건을 지키면서 Leading Entry에 속한 열의 나머지 성분은 모두 0인 사다리꼴
-##### 가우스-조던 소거법
-- 다음 세 가지의 기본 행 연산을 통해 연립일차방정식의 첨가행렬을 기약 행 사다리꼴로 변환하여 해를 구한다.
-1. 한 행을 상수배한다.
-2. 한 행을 상수배하여 다른 행에 더한다.
-3. 두 행을 맞바꾼다.
-##### 역행렬 이용
-- $A=$계수행렬, $B=$상수항
-- 연립일차방정식 $AX=B$에서 $A$의 역행렬 $A^{-1}$가 존재하면, $X=A^{-1}B$
+- $A_{mn} \times B_{mn} = (a_{i, j}b_{i, j})$
 # 행렬식
 - 정사각행렬 $A$를 하나의 수로써 대응시키는 특별한 함수. $detA=|A|$
 - 이때, $A$가
@@ -122,14 +77,3 @@ C_{1, 2} & C_{2, 2} & \cdots \\
 A^{-1}&=\frac{adjA}{detA}
 \end{aligned}
 $$
-
-# 크래머 공식
-- 연립일차방정식 $AX=B$에서, $A$가 행렬식이 0이 아닌 정사각행렬일 때,
-
-$$
-\begin{aligned}
-x_j=\frac{detA_j}{detA}
-\end{aligned}
-$$
-
-- 단, $j=1, \cdots, n$이고 $A_j$는 $A$의 $j$번째 열을 $B$의 $j$번째 열로 바꾼 행렬이다.
