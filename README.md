@@ -25,7 +25,7 @@ y_{1, N}&=a(wx + b)
 \end{aligned}
 $$
 - 딥러닝의 은닉층과 출력층은 위 모델을 따르며 이전 층의 출력값은 현재 층의 입력값으로 주어진다.
-- 층의 깊이는 모델의 복잡도와 성능을 균형있게 고려하여 구성한다.
+- 층의 깊이는 모델의 복잡도와 성능을 균형있게 고려하여 구성해야 한다.
 # Perceptron
 - 퍼셉트론은 인공신경망의 한 종류로, 이진 분류(Binary Classification) 문제를 해결하는 데에 사용된 간단한 모델이다.
 - 딥러닝의 기반이 되는 모델로 입력값(Input)과 가중치(Weight)를 곱한 합을 임계치(Threshold)와 비교하여 출력값(Output)을 결정한다.
@@ -61,3 +61,4 @@ $$a\big((\displaystyle\sum_{i=0}^{n} w_i x_i) + b\big)$$
 - [확률과 통계](./Math/ProbabilityAndStatistics/): 모델의 학습과 예측에 필요한 통계적 지식을 제공한다.
 - [정보이론](./Math/InformationTheory/): 손실 함수나 효율적인 데이터 압축 등을 수행하는 데에 사용된다.
 - [그래프이론](./Math/GraphTheory/): 효율적으로 미분을 계산하는 데에 사용될 지식을 제공한다.
+- [최적화이론](./Math/OptimizationTheory/): 모델의 학습 과정에서 더욱 효율적인 최적화 방식을 제공한다.
