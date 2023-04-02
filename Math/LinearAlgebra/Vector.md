@@ -68,11 +68,5 @@ $$
 ## 벡터공간
 - 체 $F$에 대한 가군($V, +, \cdot$)을 벡터공간, $V$의 원소를 벡터라 한다.
 - 이때 $+$는 벡터의 덧셈이고, $\cdot$은 벡터의 스칼라배이다.
-
-+
-$$
-\begin{aligned}
- : V \times V \to V 인 함수 \\
-\cdot : F \times V \to V 인 함수 \\
-\end{aligned}
-$$
+- $(V, +)$는 아벨군이다. $(u, v, w \in V)$
+- $(V, +, \cdot)$는 $F$의 가군이다. $(k, m \in F)$
