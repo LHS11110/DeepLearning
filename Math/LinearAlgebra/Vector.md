@@ -71,7 +71,7 @@ $$
 
 $$
 \begin{aligned}
-+: V \times V -> V 인 함수
-\cdot: F \times V -> V 인 함수
++ &: V \times V \to V 인 함수 \\
+\cdot &: F \times V \to V 인 함수
 \end{aligned}
 $$
