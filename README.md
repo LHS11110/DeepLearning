@@ -22,18 +22,6 @@ w_{M - 1, 0} & w_{M - 1, 1} & \cdots & w_{M - 1, N - 1} \\
 \end{pmatrix} \\
 \\
 y_{1, N}&=a(wx + b)
-
-
-
-
-
-
-
-
-
-AI \arrow {Machine Learning} \arrow {Deep Learning}
-
-
 \end{aligned}
 $$
 - 딥러닝의 은닉층과 출력층은 위 모델을 따르며 이전 층의 출력값은 현재 층의 입력값으로 주어진다.
