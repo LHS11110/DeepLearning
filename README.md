@@ -31,9 +31,7 @@ y_{1, N}&=a(wx + b)
 
 
 
-AI && {Machine Learning} && {Deep Learning}
-\arrow[from=1-1, to=1-3]
-\arrow[from=1-3, to=1-5]
+AI \arrow {Machine Learning} \arrow {Deep Learning}
 
 
 \end{aligned}
